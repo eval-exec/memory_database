@@ -1,0 +1,1 @@
+/usr/bin/gcc -g   CMakeFiles/mmdb.dir/main.c.o  -o mmdb 
