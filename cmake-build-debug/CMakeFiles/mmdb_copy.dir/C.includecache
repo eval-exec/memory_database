@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vory/programing/c/mmdb_copy/ttree.h
+stdint.h
+-
+stdbool.h
+-
+sys/types.h
+-
+ttree_defs.h
+/home/vory/programing/c/mmdb_copy/ttree_defs.h
+
+/home/vory/programing/c/mmdb_copy/ttree_defs.h
+assert.h
+-
+
+/home/vory/programing/c/mmdb_copy/ttree_test.c
+stdio.h
+-
+stdlib.h
+-
+limits.h
+-
+time.h
+-
+ttree.h
+/home/vory/programing/c/mmdb_copy/ttree.h
+

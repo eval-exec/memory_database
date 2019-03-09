@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vory/programing/c/mmdb
+CMAKE_SOURCE_DIR = /home/vory/programing/c/mmdb_copy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vory/programing/c/mmdb/cmake-build-debug
+CMAKE_BINARY_DIR = /home/vory/programing/c/mmdb_copy/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vory/programing/c/mmdb/cmake-build-debug/CMakeFiles /home/vory/programing/c/mmdb/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vory/programing/c/mmdb_copy/cmake-build-debug/CMakeFiles /home/vory/programing/c/mmdb_copy/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vory/programing/c/mmdb/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vory/programing/c/mmdb_copy/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mmdb
+# Target rules for targets named mmdb_copy
 
 # Build rule for target.
-mmdb: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mmdb
-.PHONY : mmdb
+mmdb_copy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mmdb_copy
+.PHONY : mmdb_copy
 
 # fast build rule for target.
-mmdb/fast:
-	$(MAKE) -f CMakeFiles/mmdb.dir/build.make CMakeFiles/mmdb.dir/build
-.PHONY : mmdb/fast
+mmdb_copy/fast:
+	$(MAKE) -f CMakeFiles/mmdb_copy.dir/build.make CMakeFiles/mmdb_copy.dir/build
+.PHONY : mmdb_copy/fast
 
-main.o: main.c.o
+ttree.o: ttree.c.o
 
-.PHONY : main.o
+.PHONY : ttree.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/mmdb.dir/build.make CMakeFiles/mmdb.dir/main.c.o
-.PHONY : main.c.o
+ttree.c.o:
+	$(MAKE) -f CMakeFiles/mmdb_copy.dir/build.make CMakeFiles/mmdb_copy.dir/ttree.c.o
+.PHONY : ttree.c.o
 
-main.i: main.c.i
+ttree.i: ttree.c.i
 
-.PHONY : main.i
+.PHONY : ttree.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/mmdb.dir/build.make CMakeFiles/mmdb.dir/main.c.i
-.PHONY : main.c.i
+ttree.c.i:
+	$(MAKE) -f CMakeFiles/mmdb_copy.dir/build.make CMakeFiles/mmdb_copy.dir/ttree.c.i
+.PHONY : ttree.c.i
 
-main.s: main.c.s
+ttree.s: ttree.c.s
 
-.PHONY : main.s
+.PHONY : ttree.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/mmdb.dir/build.make CMakeFiles/mmdb.dir/main.c.s
-.PHONY : main.c.s
+ttree.c.s:
+	$(MAKE) -f CMakeFiles/mmdb_copy.dir/build.make CMakeFiles/mmdb_copy.dir/ttree.c.s
+.PHONY : ttree.c.s
+
+ttree_test.o: ttree_test.c.o
+
+.PHONY : ttree_test.o
+
+# target to build an object file
+ttree_test.c.o:
+	$(MAKE) -f CMakeFiles/mmdb_copy.dir/build.make CMakeFiles/mmdb_copy.dir/ttree_test.c.o
+.PHONY : ttree_test.c.o
+
+ttree_test.i: ttree_test.c.i
+
+.PHONY : ttree_test.i
+
+# target to preprocess a source file
+ttree_test.c.i:
+	$(MAKE) -f CMakeFiles/mmdb_copy.dir/build.make CMakeFiles/mmdb_copy.dir/ttree_test.c.i
+.PHONY : ttree_test.c.i
+
+ttree_test.s: ttree_test.c.s
+
+.PHONY : ttree_test.s
+
+# target to generate assembly for a file
+ttree_test.c.s:
+	$(MAKE) -f CMakeFiles/mmdb_copy.dir/build.make CMakeFiles/mmdb_copy.dir/ttree_test.c.s
+.PHONY : ttree_test.c.s
 
 # Help Target
 help:
@@ -157,11 +184,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... mmdb"
+	@echo "... mmdb_copy"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... ttree.o"
+	@echo "... ttree.i"
+	@echo "... ttree.s"
+	@echo "... ttree_test.o"
+	@echo "... ttree_test.i"
+	@echo "... ttree_test.s"
 .PHONY : help
 
 

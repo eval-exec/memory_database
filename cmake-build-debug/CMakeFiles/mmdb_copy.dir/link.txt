@@ -1,0 +1,1 @@
+/usr/bin/gcc -g   CMakeFiles/mmdb_copy.dir/ttree.c.o CMakeFiles/mmdb_copy.dir/ttree_test.c.o  -o mmdb_copy 

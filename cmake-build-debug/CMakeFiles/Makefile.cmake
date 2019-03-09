@@ -95,5 +95,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/mmdb.dir/DependInfo.cmake"
+  "CMakeFiles/mmdb_copy.dir/DependInfo.cmake"
   )
