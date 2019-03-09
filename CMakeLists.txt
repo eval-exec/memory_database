@@ -9,4 +9,4 @@ add_executable(mmdb_copy
         ttree.c
         ttree.h
         ttree_defs.h
-        ttree_test.c)
+        ttree_test.c ttreebuffer.c ttreebuffer.h)

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/vory/programing/c/mmdb/ttree.c" "/home/vory/programing/c/mmdb/cmake-build-debug/CMakeFiles/mmdb_copy.dir/ttree.c.o"
   "/home/vory/programing/c/mmdb/ttree_test.c" "/home/vory/programing/c/mmdb/cmake-build-debug/CMakeFiles/mmdb_copy.dir/ttree_test.c.o"
+  "/home/vory/programing/c/mmdb/ttreebuffer.c" "/home/vory/programing/c/mmdb/cmake-build-debug/CMakeFiles/mmdb_copy.dir/ttreebuffer.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

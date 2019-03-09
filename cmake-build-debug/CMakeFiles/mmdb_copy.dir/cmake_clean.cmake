@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mmdb_copy.dir/ttree.c.o"
   "CMakeFiles/mmdb_copy.dir/ttree_test.c.o"
+  "CMakeFiles/mmdb_copy.dir/ttreebuffer.c.o"
   "mmdb_copy.pdb"
   "mmdb_copy"
 )

@@ -177,6 +177,33 @@ ttree_test.c.s:
 	$(MAKE) -f CMakeFiles/mmdb_copy.dir/build.make CMakeFiles/mmdb_copy.dir/ttree_test.c.s
 .PHONY : ttree_test.c.s
 
+ttreebuffer.o: ttreebuffer.c.o
+
+.PHONY : ttreebuffer.o
+
+# target to build an object file
+ttreebuffer.c.o:
+	$(MAKE) -f CMakeFiles/mmdb_copy.dir/build.make CMakeFiles/mmdb_copy.dir/ttreebuffer.c.o
+.PHONY : ttreebuffer.c.o
+
+ttreebuffer.i: ttreebuffer.c.i
+
+.PHONY : ttreebuffer.i
+
+# target to preprocess a source file
+ttreebuffer.c.i:
+	$(MAKE) -f CMakeFiles/mmdb_copy.dir/build.make CMakeFiles/mmdb_copy.dir/ttreebuffer.c.i
+.PHONY : ttreebuffer.c.i
+
+ttreebuffer.s: ttreebuffer.c.s
+
+.PHONY : ttreebuffer.s
+
+# target to generate assembly for a file
+ttreebuffer.c.s:
+	$(MAKE) -f CMakeFiles/mmdb_copy.dir/build.make CMakeFiles/mmdb_copy.dir/ttreebuffer.c.s
+.PHONY : ttreebuffer.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... ttree_test.o"
 	@echo "... ttree_test.i"
 	@echo "... ttree_test.s"
+	@echo "... ttreebuffer.o"
+	@echo "... ttreebuffer.i"
+	@echo "... ttreebuffer.s"
 .PHONY : help
 
 

@@ -90,6 +90,12 @@
 		<Unit filename="/home/vory/programing/c/mmdb/ttree_test.c">
 			<Option target="mmdb_copy"/>
 		</Unit>
+		<Unit filename="/home/vory/programing/c/mmdb/ttreebuffer.c">
+			<Option target="mmdb_copy"/>
+		</Unit>
+		<Unit filename="/home/vory/programing/c/mmdb/ttreebuffer.h">
+			<Option target="mmdb_copy"/>
+		</Unit>
 		<Unit filename="/home/vory/programing/c/mmdb/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
