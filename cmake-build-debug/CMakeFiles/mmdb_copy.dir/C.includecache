@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/vory/programing/c/mmdb_copy/ttree.h
+/home/vory/programing/c/mmdb/ttree.h
 stdint.h
 -
 stdbool.h
@@ -14,13 +14,13 @@ stdbool.h
 sys/types.h
 -
 ttree_defs.h
-/home/vory/programing/c/mmdb_copy/ttree_defs.h
+/home/vory/programing/c/mmdb/ttree_defs.h
 
-/home/vory/programing/c/mmdb_copy/ttree_defs.h
+/home/vory/programing/c/mmdb/ttree_defs.h
 assert.h
 -
 
-/home/vory/programing/c/mmdb_copy/ttree_test.c
+/home/vory/programing/c/mmdb/ttree_test.c
 stdio.h
 -
 stdlib.h
@@ -30,5 +30,5 @@ limits.h
 time.h
 -
 ttree.h
-/home/vory/programing/c/mmdb_copy/ttree.h
+/home/vory/programing/c/mmdb/ttree.h
 

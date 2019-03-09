@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 
 
      all_items = calloc(num_keys, sizeof(all_items));
-     printf("all_item size = %d \n", sizeof(all_items));
+     printf("all_item size = %zu \n", sizeof(all_items));
 
 
     printf("{ ");
@@ -112,4 +112,5 @@ int main(int argc, char *argv[])
      ttree_destroy(&ttree);
      free(all_items);
      exit(EXIT_SUCCESS);
+
 }

@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/vory/programing/c/mmdb_copy/. 
+C_INCLUDES = -I/home/vory/programing/c/mmdb/. 
 

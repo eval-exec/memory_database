@@ -8,89 +8,89 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/vory/programing/c/mmdb_copy/cmake-build-debug"/>
+				<Option working_dir="/home/vory/programing/c/mmdb/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/vory/programing/c/mmdb_copy/cmake-build-debug"/>
+				<Option working_dir="/home/vory/programing/c/mmdb/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mmdb_copy">
-				<Option output="/home/vory/programing/c/mmdb_copy/cmake-build-debug/mmdb_copy" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vory/programing/c/mmdb_copy/cmake-build-debug"/>
+				<Option output="/home/vory/programing/c/mmdb/cmake-build-debug/mmdb_copy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vory/programing/c/mmdb/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/vory/programing/c/mmdb_copy/."/>
+					<Add directory="/home/vory/programing/c/mmdb/."/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 mmdb_copy"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 mmdb_copy"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mmdb_copy/fast">
-				<Option output="/home/vory/programing/c/mmdb_copy/cmake-build-debug/mmdb_copy" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vory/programing/c/mmdb_copy/cmake-build-debug"/>
+				<Option output="/home/vory/programing/c/mmdb/cmake-build-debug/mmdb_copy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vory/programing/c/mmdb/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/vory/programing/c/mmdb_copy/."/>
+					<Add directory="/home/vory/programing/c/mmdb/."/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 mmdb_copy/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 mmdb_copy/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/vory/programing/c/mmdb_copy/cmake-build-debug"/>
+				<Option working_dir="/home/vory/programing/c/mmdb/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb_copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vory/programing/c/mmdb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/vory/programing/c/mmdb_copy/ttree.c">
+		<Unit filename="/home/vory/programing/c/mmdb/ttree.c">
 			<Option target="mmdb_copy"/>
 		</Unit>
-		<Unit filename="/home/vory/programing/c/mmdb_copy/ttree.h">
+		<Unit filename="/home/vory/programing/c/mmdb/ttree.h">
 			<Option target="mmdb_copy"/>
 		</Unit>
-		<Unit filename="/home/vory/programing/c/mmdb_copy/ttree_defs.h">
+		<Unit filename="/home/vory/programing/c/mmdb/ttree_defs.h">
 			<Option target="mmdb_copy"/>
 		</Unit>
-		<Unit filename="/home/vory/programing/c/mmdb_copy/ttree_test.c">
+		<Unit filename="/home/vory/programing/c/mmdb/ttree_test.c">
 			<Option target="mmdb_copy"/>
 		</Unit>
-		<Unit filename="/home/vory/programing/c/mmdb_copy/CMakeLists.txt">
+		<Unit filename="/home/vory/programing/c/mmdb/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

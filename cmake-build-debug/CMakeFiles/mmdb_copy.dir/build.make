@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vory/programing/c/mmdb_copy
+CMAKE_SOURCE_DIR = /home/vory/programing/c/mmdb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vory/programing/c/mmdb_copy/cmake-build-debug
+CMAKE_BINARY_DIR = /home/vory/programing/c/mmdb/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mmdb_copy.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/mmdb_copy.dir/flags.make
 
 CMakeFiles/mmdb_copy.dir/ttree.c.o: CMakeFiles/mmdb_copy.dir/flags.make
 CMakeFiles/mmdb_copy.dir/ttree.c.o: ../ttree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vory/programing/c/mmdb_copy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mmdb_copy.dir/ttree.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mmdb_copy.dir/ttree.c.o   -c /home/vory/programing/c/mmdb_copy/ttree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vory/programing/c/mmdb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mmdb_copy.dir/ttree.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mmdb_copy.dir/ttree.c.o   -c /home/vory/programing/c/mmdb/ttree.c
 
 CMakeFiles/mmdb_copy.dir/ttree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mmdb_copy.dir/ttree.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vory/programing/c/mmdb_copy/ttree.c > CMakeFiles/mmdb_copy.dir/ttree.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vory/programing/c/mmdb/ttree.c > CMakeFiles/mmdb_copy.dir/ttree.c.i
 
 CMakeFiles/mmdb_copy.dir/ttree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mmdb_copy.dir/ttree.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vory/programing/c/mmdb_copy/ttree.c -o CMakeFiles/mmdb_copy.dir/ttree.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vory/programing/c/mmdb/ttree.c -o CMakeFiles/mmdb_copy.dir/ttree.c.s
 
 CMakeFiles/mmdb_copy.dir/ttree_test.c.o: CMakeFiles/mmdb_copy.dir/flags.make
 CMakeFiles/mmdb_copy.dir/ttree_test.c.o: ../ttree_test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vory/programing/c/mmdb_copy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mmdb_copy.dir/ttree_test.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mmdb_copy.dir/ttree_test.c.o   -c /home/vory/programing/c/mmdb_copy/ttree_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vory/programing/c/mmdb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mmdb_copy.dir/ttree_test.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mmdb_copy.dir/ttree_test.c.o   -c /home/vory/programing/c/mmdb/ttree_test.c
 
 CMakeFiles/mmdb_copy.dir/ttree_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mmdb_copy.dir/ttree_test.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vory/programing/c/mmdb_copy/ttree_test.c > CMakeFiles/mmdb_copy.dir/ttree_test.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vory/programing/c/mmdb/ttree_test.c > CMakeFiles/mmdb_copy.dir/ttree_test.c.i
 
 CMakeFiles/mmdb_copy.dir/ttree_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mmdb_copy.dir/ttree_test.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vory/programing/c/mmdb_copy/ttree_test.c -o CMakeFiles/mmdb_copy.dir/ttree_test.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vory/programing/c/mmdb/ttree_test.c -o CMakeFiles/mmdb_copy.dir/ttree_test.c.s
 
 # Object files for target mmdb_copy
 mmdb_copy_OBJECTS = \
@@ -95,7 +95,7 @@ mmdb_copy: CMakeFiles/mmdb_copy.dir/ttree.c.o
 mmdb_copy: CMakeFiles/mmdb_copy.dir/ttree_test.c.o
 mmdb_copy: CMakeFiles/mmdb_copy.dir/build.make
 mmdb_copy: CMakeFiles/mmdb_copy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vory/programing/c/mmdb_copy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable mmdb_copy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vory/programing/c/mmdb/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable mmdb_copy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mmdb_copy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/mmdb_copy.dir/clean:
 .PHONY : CMakeFiles/mmdb_copy.dir/clean
 
 CMakeFiles/mmdb_copy.dir/depend:
-	cd /home/vory/programing/c/mmdb_copy/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vory/programing/c/mmdb_copy /home/vory/programing/c/mmdb_copy /home/vory/programing/c/mmdb_copy/cmake-build-debug /home/vory/programing/c/mmdb_copy/cmake-build-debug /home/vory/programing/c/mmdb_copy/cmake-build-debug/CMakeFiles/mmdb_copy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vory/programing/c/mmdb/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vory/programing/c/mmdb /home/vory/programing/c/mmdb /home/vory/programing/c/mmdb/cmake-build-debug /home/vory/programing/c/mmdb/cmake-build-debug /home/vory/programing/c/mmdb/cmake-build-debug/CMakeFiles/mmdb_copy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mmdb_copy.dir/depend
 

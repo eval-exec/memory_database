@@ -1,4 +1,4 @@
-# Install script for directory: /home/vory/programing/c/mmdb_copy
+# Install script for directory: /home/vory/programing/c/mmdb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vory/programing/c/mmdb_copy/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vory/programing/c/mmdb/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

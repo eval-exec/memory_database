@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/vory/programing/c/mmdb_copy/ttree.c" "/home/vory/programing/c/mmdb_copy/cmake-build-debug/CMakeFiles/mmdb_copy.dir/ttree.c.o"
-  "/home/vory/programing/c/mmdb_copy/ttree_test.c" "/home/vory/programing/c/mmdb_copy/cmake-build-debug/CMakeFiles/mmdb_copy.dir/ttree_test.c.o"
+  "/home/vory/programing/c/mmdb/ttree.c" "/home/vory/programing/c/mmdb/cmake-build-debug/CMakeFiles/mmdb_copy.dir/ttree.c.o"
+  "/home/vory/programing/c/mmdb/ttree_test.c" "/home/vory/programing/c/mmdb/cmake-build-debug/CMakeFiles/mmdb_copy.dir/ttree_test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
