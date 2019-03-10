@@ -8,4 +8,8 @@ CMakeFiles/mmdb_copy.dir/ttree.c.o: ../ttree_defs.h
 CMakeFiles/mmdb_copy.dir/ttree_test.c.o: ../ttree.h
 CMakeFiles/mmdb_copy.dir/ttree_test.c.o: ../ttree_defs.h
 CMakeFiles/mmdb_copy.dir/ttree_test.c.o: ../ttree_test.c
+CMakeFiles/mmdb_copy.dir/ttree_test.c.o: ../ttreebuffer.h
+
+CMakeFiles/mmdb_copy.dir/ttreebuffer.c.o: ../ttreebuffer.c
+CMakeFiles/mmdb_copy.dir/ttreebuffer.c.o: ../ttreebuffer.h
 

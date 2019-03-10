@@ -9,3 +9,7 @@ CMakeFiles/mmdb_copy.dir/ttree_test.c.o
  /home/vory/programing/c/mmdb/ttree.h
  /home/vory/programing/c/mmdb/ttree_defs.h
  /home/vory/programing/c/mmdb/ttree_test.c
+ /home/vory/programing/c/mmdb/ttreebuffer.h
+CMakeFiles/mmdb_copy.dir/ttreebuffer.c.o
+ /home/vory/programing/c/mmdb/ttreebuffer.c
+ /home/vory/programing/c/mmdb/ttreebuffer.h

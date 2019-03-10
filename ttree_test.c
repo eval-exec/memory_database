@@ -3,7 +3,8 @@
 #include <limits.h>
 #include <time.h>
 #include "ttree.h"
-
+#include "ttree_defs.h"
+#include "ttreebuffer.h"
 
 
 struct item {
@@ -35,7 +36,14 @@ int main(int argc, char *argv[])
 
 //     num_keys = atoi(argv[1]);
 //     if (num_keys <= 0)
-    num_keys = 20;
+//    num_keys = (int)getinput();
+//////////////////////////////////////////////
+getinput();
+
+
+num_keys = 20;
+
+
 
 //          usage(argv[0]);
 
@@ -68,7 +76,7 @@ int main(int argc, char *argv[])
 
 //    printf("%d",sizeof(char[1 - 2 * !(cond)]));
 
-    printf("%ld",(  (size_t)&(((struct item *)0)->key) - (size_t)((struct item *)0)          ));
+//    printf("%ld",(  (size_t)&(((struct item *)0)->key) - (size_t)((struct item *)0)          ));
 
 
 

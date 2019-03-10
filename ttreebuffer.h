@@ -2,7 +2,17 @@
 // Created by vory on 3/9/19.
 //
 
-#ifndef MMDB_COPY_TTREEBUFFER_H
-#define MMDB_COPY_TTREEBUFFER_H
+#ifndef __TTREEBUFFER_H__
+#define __TTREEBUFFER_H__
+char input[256];
+char * getinput();
+int parseinput(char *);
 
-#endif //MMDB_COPY_TTREEBUFFER_H
+
+
+
+
+
+
+
+#endif //__TTREEBUFFER_H__

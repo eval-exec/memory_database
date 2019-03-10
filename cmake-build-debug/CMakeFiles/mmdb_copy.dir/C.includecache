@@ -6,29 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/vory/programing/c/mmdb/ttree.h
-stdint.h
--
-stdbool.h
--
-sys/types.h
--
-ttree_defs.h
-/home/vory/programing/c/mmdb/ttree_defs.h
-
-/home/vory/programing/c/mmdb/ttree_defs.h
-assert.h
--
-
-/home/vory/programing/c/mmdb/ttree_test.c
+/home/vory/programing/c/mmdb/ttreebuffer.c
 stdio.h
 -
-stdlib.h
+string.h
 -
-limits.h
--
-time.h
--
-ttree.h
-/home/vory/programing/c/mmdb/ttree.h
+ttreebuffer.h
+/home/vory/programing/c/mmdb/ttreebuffer.h
+
+/home/vory/programing/c/mmdb/ttreebuffer.h
 
