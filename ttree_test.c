@@ -38,10 +38,11 @@ int main(int argc, char *argv[])
 //     if (num_keys <= 0)
 //    num_keys = (int)getinput();
 //////////////////////////////////////////////
+extern char  * parameter[256];
 getinput();
 
+num_keys = atoi(parameter[0]);
 
-num_keys = 20;
 
 
 
